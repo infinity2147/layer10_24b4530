@@ -1,0 +1,1840 @@
+[
+  {
+    "question": "What decisions were made about Project Raptor?",
+    "matched_entities": [
+      {
+        "entity_id": "ent_person_p1048",
+        "canonical_name": "gthorse@about-cis.com",
+        "entity_type": "PERSON",
+        "aliases": [
+          "gthorse@about-cis.com",
+          "\"Greg Thorse\" <gthorse@about-cis.com>@ENRON"
+        ]
+      }
+    ],
+    "ranked_claims": [
+      {
+        "claim_id": "clm_e2003d3b46",
+        "claim_type": "STATUS",
+        "subject": "unk",
+        "predicate": "status",
+        "object": "status on this overall project?",
+        "validity": "DISPUTED",
+        "valid_from": "2001-11-26T06:14:37Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_c9319d20b3",
+        "claim_type": "ASSIGNMENT",
+        "subject": "wise.counsel@lpl.com",
+        "predicate": "assigned_to_task",
+        "object": "getting a copy made",
+        "validity": "CURRENT",
+        "valid_from": "2001-10-25T13:49:57Z",
+        "valid_until": null,
+        "confidence": 0.6,
+        "evidence_count": 2,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_ea84edb74d",
+        "claim_type": "ASSIGNMENT",
+        "subject": "Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>",
+        "predicate": "assigned_to_task",
+        "object": "getting a copy made",
+        "validity": "DISPUTED",
+        "valid_from": "2001-10-25T12:08:52Z",
+        "valid_until": null,
+        "confidence": 0.6,
+        "evidence_count": 2,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_f77416cba0",
+        "claim_type": "STATUS",
+        "subject": "John Arnold",
+        "predicate": "status",
+        "object": "status of this project.",
+        "validity": "DISPUTED",
+        "valid_from": "2000-06-07T00:40:00Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 2,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_109c95c928",
+        "claim_type": "STATUS",
+        "subject": "John Arnold",
+        "predicate": "status",
+        "object": "status of the margin project.",
+        "validity": "DISPUTED",
+        "valid_from": "2000-09-06T08:50:00Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 4,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_c658646681",
+        "claim_type": "RISK_FLAG",
+        "subject": "John Arnold",
+        "predicate": "flagged_risk",
+        "object": "issue that doesn't need to be made public and as long as Lavo and myself are",
+        "validity": "DISPUTED",
+        "valid_from": "2001-01-03T08:09:00Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 2,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_2a1b2d51f5",
+        "claim_type": "ASSIGNMENT",
+        "subject": "Ann M Schmidt",
+        "predicate": "assigned_to_task",
+        "object": "and operate a project, with Core Venture 1 the most sought after,",
+        "validity": "DISPUTED",
+        "valid_from": "2001-05-14T01:29:00Z",
+        "valid_until": null,
+        "confidence": 0.7,
+        "evidence_count": 1,
+        "superseded_by": null
+      }
+    ],
+    "evidence_snippets": [
+      {
+        "evidence_id": "ev_3955c9f6e4",
+        "source_id": "allen-p/deleted_items/434.",
+        "source_type": "email",
+        "excerpt": "status on this overall project?",
+        "char_start": 93,
+        "char_end": 124,
+        "timestamp": "2001-11-26T06:14:37Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_706479df8d",
+        "source_id": "allen-p/inbox/24.",
+        "source_type": "email",
+        "excerpt": "you want to handle getting a copy made.",
+        "char_start": 0,
+        "char_end": 39,
+        "timestamp": "2001-10-25T13:49:57Z",
+        "confidence": 0.6,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_e8e5a62181",
+        "source_id": "allen-p/inbox/30.",
+        "source_type": "email",
+        "excerpt": "you want to handle getting a copy made.",
+        "char_start": 0,
+        "char_end": 39,
+        "timestamp": "2001-10-29T10:47:55Z",
+        "confidence": 0.6,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_420a6b54ea",
+        "source_id": "allen-p/sent_items/293.",
+        "source_type": "email",
+        "excerpt": "you want to handle getting a copy made.",
+        "char_start": 0,
+        "char_end": 39,
+        "timestamp": "2001-10-25T12:08:52Z",
+        "confidence": 0.6,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_2cf07efeb0",
+        "source_id": "allen-p/sent_items/369.",
+        "source_type": "email",
+        "excerpt": "you want to handle getting a copy made.",
+        "char_start": 0,
+        "char_end": 39,
+        "timestamp": "2001-10-30T05:21:50Z",
+        "confidence": 0.6,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_6924c0470c",
+        "source_id": "arnold-j/_sent_mail/344.",
+        "source_type": "email",
+        "excerpt": "status of this project.",
+        "char_start": 272,
+        "char_end": 295,
+        "timestamp": "2000-06-07T00:40:00Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_1f143866a2",
+        "source_id": "arnold-j/all_documents/531.",
+        "source_type": "email",
+        "excerpt": "status of this project.",
+        "char_start": 272,
+        "char_end": 295,
+        "timestamp": "2000-06-07T00:40:00Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_69c78ca80a",
+        "source_id": "arnold-j/_sent_mail/215.",
+        "source_type": "email",
+        "excerpt": "status of the margin project.",
+        "char_start": 293,
+        "char_end": 322,
+        "timestamp": "2000-09-06T08:50:00Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_50c528734e",
+        "source_id": "arnold-j/_sent_mail/218.",
+        "source_type": "email",
+        "excerpt": "status of the margin project.",
+        "char_start": 24,
+        "char_end": 53,
+        "timestamp": "2000-09-06T04:51:00Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_eaba412580",
+        "source_id": "arnold-j/all_documents/400.",
+        "source_type": "email",
+        "excerpt": "status of the margin project.",
+        "char_start": 293,
+        "char_end": 322,
+        "timestamp": "2000-09-06T08:50:00Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      }
+    ],
+    "conflicts": [],
+    "answer_hint": "Based on the memory graph: 'wise.counsel@lpl.com' \u2192 assigned_to_task \u2192 'getting a copy made' [confidence=0.6, validity=CURRENT]",
+    "total_evidence": 10,
+    "total_claims": 7
+  },
+  {
+    "question": "Who flagged concerns about accounting practices?",
+    "matched_entities": [],
+    "ranked_claims": [
+      {
+        "claim_id": "clm_c0d3dbab05",
+        "claim_type": "RISK_FLAG",
+        "subject": "Ina Rangel",
+        "predicate": "flagged_risk",
+        "object": "risk books- Is Enron accurately accounting for physical",
+        "validity": "DISPUTED",
+        "valid_from": "2001-02-21T07:22:00Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 4,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_505005585f",
+        "claim_type": "RISK_FLAG",
+        "subject": "Miller, Don (Asset Mktg) </O=ENRON/OU=NA/CN=RECIPIENTS/CN=DMILLE2>",
+        "predicate": "flagged_risk",
+        "object": "risk tolerance.",
+        "validity": "DISPUTED",
+        "valid_from": "2001-10-25T21:43:45Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_c6a65e2e66",
+        "claim_type": "RISK_FLAG",
+        "subject": "geninfo@state-bank.com",
+        "predicate": "flagged_risk",
+        "object": "problem and get our",
+        "validity": "DISPUTED",
+        "valid_from": "2001-11-26T16:17:10Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 2,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_f426b93007",
+        "claim_type": "RISK_FLAG",
+        "subject": "Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>",
+        "predicate": "flagged_risk",
+        "object": "Risk Management",
+        "validity": "DISPUTED",
+        "valid_from": "2001-09-14T07:25:28Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_b08ce2e3b1",
+        "claim_type": "RISK_FLAG",
+        "subject": "Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>",
+        "predicate": "flagged_risk",
+        "object": "issue the shares for the GP.",
+        "validity": "DISPUTED",
+        "valid_from": "2001-10-29T13:27:12Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_36fec884f7",
+        "claim_type": "RISK_FLAG",
+        "subject": "monica.l.brown@accenture.com",
+        "predicate": "flagged_risk",
+        "object": "Risk Management Simulation Meeting",
+        "validity": "CURRENT",
+        "valid_from": "2001-10-29T10:17:06Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 2,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_3ccc948ccd",
+        "claim_type": "RISK_FLAG",
+        "subject": "McDaniel, Kirk </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=151B1F73-1F0D9C60-8625697B-63E5AD>",
+        "predicate": "flagged_risk",
+        "object": "issue I will then ask for your assistance.",
+        "validity": "DISPUTED",
+        "valid_from": "2001-11-21T08:34:51Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_8efe192ffa",
+        "claim_type": "RISK_FLAG",
+        "subject": "Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>",
+        "predicate": "flagged_risk",
+        "object": "Risk Management Simulation.",
+        "validity": "DISPUTED",
+        "valid_from": "2001-09-10T06:56:07Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      }
+    ],
+    "evidence_snippets": [
+      {
+        "evidence_id": "ev_f196a8f6c9",
+        "source_id": "allen-p/_sent_mail/489.",
+        "source_type": "email",
+        "excerpt": "risk books- Is Enron accurately accounting for physical",
+        "char_start": 0,
+        "char_end": 55,
+        "timestamp": "2001-02-21T07:22:00Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_31e93a48a3",
+        "source_id": "allen-p/all_documents/508.",
+        "source_type": "email",
+        "excerpt": "risk books- Is Enron accurately accounting for physical",
+        "char_start": 0,
+        "char_end": 55,
+        "timestamp": "2001-02-21T07:22:00Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_6c15d88f23",
+        "source_id": "allen-p/discussion_threads/448.",
+        "source_type": "email",
+        "excerpt": "risk books- Is Enron accurately accounting for physical",
+        "char_start": 0,
+        "char_end": 55,
+        "timestamp": "2001-02-21T07:22:00Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_9987b171fd",
+        "source_id": "allen-p/deleted_items/214.",
+        "source_type": "email",
+        "excerpt": "risk tolerance.",
+        "char_start": 1128,
+        "char_end": 1143,
+        "timestamp": "2001-10-25T21:43:45Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_44b8e4e7e7",
+        "source_id": "allen-p/deleted_items/445.",
+        "source_type": "email",
+        "excerpt": "problem and get our",
+        "char_start": 323,
+        "char_end": 342,
+        "timestamp": "2001-11-26T16:17:10Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_75b4b8ac96",
+        "source_id": "allen-p/inbox/87.",
+        "source_type": "email",
+        "excerpt": "problem and get our",
+        "char_start": 323,
+        "char_end": 342,
+        "timestamp": "2001-11-26T16:17:10Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_6d826af25b",
+        "source_id": "allen-p/sent_items/255.",
+        "source_type": "email",
+        "excerpt": "Risk Management",
+        "char_start": 468,
+        "char_end": 483,
+        "timestamp": "2001-09-14T07:25:28Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_daaf40cfb7",
+        "source_id": "allen-p/sent_items/308.",
+        "source_type": "email",
+        "excerpt": "issue the shares for the GP.",
+        "char_start": 202,
+        "char_end": 230,
+        "timestamp": "2001-10-29T13:27:12Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_f4469ad94a",
+        "source_id": "allen-p/deleted_items/265.",
+        "source_type": "email",
+        "excerpt": "Risk Management Simulation Meeting",
+        "char_start": 271,
+        "char_end": 305,
+        "timestamp": "2001-10-29T10:17:06Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_d53088a3e0",
+        "source_id": "allen-p/inbox/31.",
+        "source_type": "email",
+        "excerpt": "Risk Management Simulation Meeting",
+        "char_start": 452,
+        "char_end": 486,
+        "timestamp": "2001-10-29T09:16:09Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      }
+    ],
+    "conflicts": [],
+    "answer_hint": "Based on the memory graph: 'monica.l.brown@accenture.com' \u2192 flagged_risk \u2192 'Risk Management Simulation Meeting' [confidence=0.75, validity=CURRENT]",
+    "total_evidence": 10,
+    "total_claims": 8
+  },
+  {
+    "question": "What is the status of Dabhol Power Plant?",
+    "matched_entities": [
+      {
+        "entity_id": "ent_project_proj009",
+        "canonical_name": "Power Conf",
+        "entity_type": "PROJECT",
+        "aliases": [
+          "Power Conf"
+        ]
+      }
+    ],
+    "ranked_claims": [
+      {
+        "claim_id": "clm_37a727fa46",
+        "claim_type": "STATUS",
+        "subject": "unk",
+        "predicate": "status",
+        "object": "status  View Continental schedules",
+        "validity": "CURRENT",
+        "valid_from": "2001-10-08T18:03:52Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_e2003d3b46",
+        "claim_type": "STATUS",
+        "subject": "unk",
+        "predicate": "status",
+        "object": "status on this overall project?",
+        "validity": "DISPUTED",
+        "valid_from": "2001-11-26T06:14:37Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_7390001754",
+        "claim_type": "STATUS",
+        "subject": "enron_update@concureworkplace.com",
+        "predicate": "status",
+        "object": "Status last changed by: Automated Administrator",
+        "validity": "CURRENT",
+        "valid_from": "2001-10-24T15:56:10Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 3,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_4f5931662c",
+        "claim_type": "STATUS",
+        "subject": "Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>",
+        "predicate": "status",
+        "object": "status update when you get a chance.",
+        "validity": "DISPUTED",
+        "valid_from": "2001-09-10T11:25:47Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_571cdb5751",
+        "claim_type": "STATUS",
+        "subject": "Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>",
+        "predicate": "status",
+        "object": "completed.",
+        "validity": "DISPUTED",
+        "valid_from": "2001-11-13T08:17:22Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_254c730e29",
+        "claim_type": "STATUS",
+        "subject": "Phillip K Allen",
+        "predicate": "status",
+        "object": "status on the quote from",
+        "validity": "DISPUTED",
+        "valid_from": "2001-05-10T00:50:00Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 4,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_0da5c0c442",
+        "claim_type": "STATUS",
+        "subject": "Miller, Don (Asset Mktg) </O=ENRON/OU=NA/CN=RECIPIENTS/CN=DMILLE2>",
+        "predicate": "status",
+        "object": "completed, is firstname.",
+        "validity": "CURRENT",
+        "valid_from": "2001-10-18T15:10:12Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_f77416cba0",
+        "claim_type": "STATUS",
+        "subject": "John Arnold",
+        "predicate": "status",
+        "object": "status of this project.",
+        "validity": "DISPUTED",
+        "valid_from": "2000-06-07T00:40:00Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 2,
+        "superseded_by": null
+      }
+    ],
+    "evidence_snippets": [
+      {
+        "evidence_id": "ev_1db0e212fb",
+        "source_id": "arnold-j/deleted_items/103.",
+        "source_type": "email",
+        "excerpt": "status  View Continental schedules",
+        "char_start": 0,
+        "char_end": 34,
+        "timestamp": "2001-10-08T18:03:52Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_3955c9f6e4",
+        "source_id": "allen-p/deleted_items/434.",
+        "source_type": "email",
+        "excerpt": "status on this overall project?",
+        "char_start": 93,
+        "char_end": 124,
+        "timestamp": "2001-11-26T06:14:37Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_b25f3f07b5",
+        "source_id": "allen-p/deleted_items/187.",
+        "source_type": "email",
+        "excerpt": "Status last changed by: Automated Administrator",
+        "char_start": 0,
+        "char_end": 47,
+        "timestamp": "2001-10-24T15:56:10Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_04350847de",
+        "source_id": "allen-p/deleted_items/241.",
+        "source_type": "email",
+        "excerpt": "Status last changed by: Automated Administrator",
+        "char_start": 0,
+        "char_end": 47,
+        "timestamp": "2001-10-26T14:47:20Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_51084da9f9",
+        "source_id": "allen-p/deleted_items/397.",
+        "source_type": "email",
+        "excerpt": "Status last changed by: Automated Administrator",
+        "char_start": 0,
+        "char_end": 47,
+        "timestamp": "2001-11-21T10:14:28Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_693a50fd92",
+        "source_id": "allen-p/sent_items/245.",
+        "source_type": "email",
+        "excerpt": "status update when you get a chance.",
+        "char_start": 25,
+        "char_end": 61,
+        "timestamp": "2001-09-10T11:25:47Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_48ab958d5c",
+        "source_id": "allen-p/sent_items/388.",
+        "source_type": "email",
+        "excerpt": "completed.",
+        "char_start": 0,
+        "char_end": 10,
+        "timestamp": "2001-11-13T08:17:22Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_df9b5b5395",
+        "source_id": "allen-p/_sent_mail/349.",
+        "source_type": "email",
+        "excerpt": "status on the quote from",
+        "char_start": 58,
+        "char_end": 82,
+        "timestamp": "2001-05-10T00:50:00Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_4f85df66c8",
+        "source_id": "allen-p/all_documents/365.",
+        "source_type": "email",
+        "excerpt": "status on the quote from",
+        "char_start": 58,
+        "char_end": 82,
+        "timestamp": "2001-05-10T00:50:00Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_842699e058",
+        "source_id": "allen-p/discussion_threads/543.",
+        "source_type": "email",
+        "excerpt": "status on the quote from",
+        "char_start": 58,
+        "char_end": 82,
+        "timestamp": "2001-05-10T00:50:00Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      }
+    ],
+    "conflicts": [],
+    "answer_hint": "Based on the memory graph: 'unk' \u2192 status \u2192 'status  View Continental schedules' [confidence=0.75, validity=CURRENT]",
+    "total_evidence": 10,
+    "total_claims": 8
+  },
+  {
+    "question": "What did Jeff Skilling decide?",
+    "matched_entities": [
+      {
+        "entity_id": "ent_person_p0025",
+        "canonical_name": "jsmith@austintx.com",
+        "entity_type": "PERSON",
+        "aliases": [
+          "\"Jeff Smith\" <jsmith@austintx.com>@ENRON",
+          "jsmith@austintx.com",
+          "\"Jeff Smith\" <jsmith@austintx.com>"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p1308",
+        "canonical_name": "Jeff Youngflesh",
+        "entity_type": "PERSON",
+        "aliases": [
+          "jeff.youngflesh@enron.com",
+          "Jeff Youngflesh"
+        ]
+      }
+    ],
+    "ranked_claims": [
+      {
+        "claim_id": "clm_1b87dea0a6",
+        "claim_type": "MEETING",
+        "subject": "Jeff Youngflesh",
+        "predicate": "meeting_occurred",
+        "object": "Attendee: Jeff Youngflesh",
+        "validity": "DISPUTED",
+        "valid_from": "2000-12-05T09:15:00Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 2,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_abe9e81c60",
+        "claim_type": "STATUS",
+        "subject": "Jeff Youngflesh",
+        "predicate": "status",
+        "object": "completed as requested above?",
+        "validity": "CURRENT",
+        "valid_from": "2000-12-13T02:38:00Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 2,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_70fd84be2e",
+        "claim_type": "RISK_FLAG",
+        "subject": "Jeff Youngflesh",
+        "predicate": "flagged_risk",
+        "object": "problem here...\", and what you and I suggested EBS do - buy and",
+        "validity": "DISPUTED",
+        "valid_from": "2000-12-04T02:53:00Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 2,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_227925ea9e",
+        "claim_type": "ASSIGNMENT",
+        "subject": "Phillip K Allen",
+        "predicate": "assigned_to_task",
+        "object": "team to offer new language to meet",
+        "validity": "DISPUTED",
+        "valid_from": "2001-01-15T23:25:00Z",
+        "valid_until": null,
+        "confidence": 0.7,
+        "evidence_count": 4,
+        "superseded_by": null
+      }
+    ],
+    "evidence_snippets": [
+      {
+        "evidence_id": "ev_afc3277d30",
+        "source_id": "arnold-j/all_documents/39.",
+        "source_type": "email",
+        "excerpt": "Attendee: Jeff Youngflesh",
+        "char_start": 0,
+        "char_end": 25,
+        "timestamp": "2000-12-05T09:15:00Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_60326429dd",
+        "source_id": "arnold-j/bristol_babcock/1.",
+        "source_type": "email",
+        "excerpt": "Attendee: Jeff Youngflesh",
+        "char_start": 0,
+        "char_end": 25,
+        "timestamp": "2000-12-05T09:15:00Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_37e8e12c37",
+        "source_id": "arnold-j/all_documents/93.",
+        "source_type": "email",
+        "excerpt": "completed as requested above?",
+        "char_start": 1077,
+        "char_end": 1106,
+        "timestamp": "2000-12-13T02:38:00Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_6f5c6dd7ba",
+        "source_id": "arnold-j/bmc/10.",
+        "source_type": "email",
+        "excerpt": "completed as requested above?",
+        "char_start": 1077,
+        "char_end": 1106,
+        "timestamp": "2000-12-13T02:38:00Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_61a4a34d98",
+        "source_id": "arnold-j/all_documents/26.",
+        "source_type": "email",
+        "excerpt": "problem here...\", and what you and I suggested EBS do - buy and",
+        "char_start": 0,
+        "char_end": 63,
+        "timestamp": "2000-12-04T02:53:00Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_df864f97a9",
+        "source_id": "arnold-j/bmc/3.",
+        "source_type": "email",
+        "excerpt": "problem here...\", and what you and I suggested EBS do - buy and",
+        "char_start": 0,
+        "char_end": 63,
+        "timestamp": "2000-12-04T02:53:00Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_90e828a031",
+        "source_id": "allen-p/_sent_mail/563.",
+        "source_type": "email",
+        "excerpt": "Jeff Dasovich will lead team to offer new language to meet",
+        "char_start": 1704,
+        "char_end": 1762,
+        "timestamp": "2001-01-15T23:25:00Z",
+        "confidence": 0.7,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_829690155d",
+        "source_id": "allen-p/all_documents/584.",
+        "source_type": "email",
+        "excerpt": "Jeff Dasovich will lead team to offer new language to meet",
+        "char_start": 1704,
+        "char_end": 1762,
+        "timestamp": "2001-01-15T23:25:00Z",
+        "confidence": 0.7,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_92ebcb62af",
+        "source_id": "allen-p/discussion_threads/396.",
+        "source_type": "email",
+        "excerpt": "Jeff Dasovich will lead team to offer new language to meet",
+        "char_start": 1704,
+        "char_end": 1762,
+        "timestamp": "2001-01-15T23:25:00Z",
+        "confidence": 0.7,
+        "extractor_ver": "v1.0.0-deterministic"
+      }
+    ],
+    "conflicts": [],
+    "answer_hint": "Based on the memory graph: 'Jeff Youngflesh' \u2192 status \u2192 'completed as requested above?' [confidence=0.75, validity=CURRENT]",
+    "total_evidence": 9,
+    "total_claims": 4
+  },
+  {
+    "question": "Were any decisions reversed or walked back?",
+    "matched_entities": [
+      {
+        "entity_id": "ent_person_p1048",
+        "canonical_name": "gthorse@about-cis.com",
+        "entity_type": "PERSON",
+        "aliases": [
+          "gthorse@about-cis.com",
+          "\"Greg Thorse\" <gthorse@about-cis.com>@ENRON"
+        ]
+      }
+    ],
+    "ranked_claims": [
+      {
+        "claim_id": "clm_347c1e8c23",
+        "claim_type": "STATUS",
+        "subject": "Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>",
+        "predicate": "status",
+        "object": "completed in a slightly scaled back form.",
+        "validity": "DISPUTED",
+        "valid_from": "2001-11-26T13:35:58Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_fffaf6de6b",
+        "claim_type": "STATUS",
+        "subject": "Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>",
+        "predicate": "status",
+        "object": "closed? I would like to see if we'll have any easement problems",
+        "validity": "DISPUTED",
+        "valid_from": "2001-10-24T10:49:39Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_58de9a7395",
+        "claim_type": "RISK_FLAG",
+        "subject": "Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>",
+        "predicate": "flagged_risk",
+        "object": "risk being short and needing a loan increase for any soft cost overages.",
+        "validity": "DISPUTED",
+        "valid_from": "2001-10-10T05:38:22Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_e48decd07f",
+        "claim_type": "REVERSAL",
+        "subject": "unk",
+        "predicate": "reversed: reversing the aging process.",
+        "object": "reversing the aging process.",
+        "validity": "HISTORICAL",
+        "valid_from": "2001-10-22T20:58:34Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_e4920d1577",
+        "claim_type": "DECISION",
+        "subject": "Sarah-Joy Hunter",
+        "predicate": "decided: confirmed back with Shirley Vauter that 1:30 PM -3:00 PM on Tuesday,",
+        "object": "confirmed back with Shirley Vauter that 1:30 PM -3:00 PM on Tuesday, ",
+        "validity": "HISTORICAL",
+        "valid_from": "2000-12-08T05:47:00Z",
+        "valid_until": "2001-03-19T03:48:00Z",
+        "confidence": 0.85,
+        "evidence_count": 2,
+        "superseded_by": "clm_852e3c02aa"
+      },
+      {
+        "claim_id": "clm_cbdb2daa87",
+        "claim_type": "ASSIGNMENT",
+        "subject": "John Arnold",
+        "predicate": "assigned_to_task",
+        "object": "any equity",
+        "validity": "DISPUTED",
+        "valid_from": "2001-04-15T08:20:00Z",
+        "valid_until": null,
+        "confidence": 0.6,
+        "evidence_count": 4,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_852e3c02aa",
+        "claim_type": "REVERSAL",
+        "subject": "Phillip K Allen",
+        "predicate": "reversed: no longer an issue. I",
+        "object": "no longer an issue.  I ",
+        "validity": "HISTORICAL",
+        "valid_from": "2001-03-19T03:48:00Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 4,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_eca15b1dae",
+        "claim_type": "REVERSAL",
+        "subject": "John Arnold",
+        "predicate": "reversed: reverse everything",
+        "object": "reverse everything ",
+        "validity": "HISTORICAL",
+        "valid_from": "2000-07-17T02:03:00Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 2,
+        "superseded_by": null
+      }
+    ],
+    "evidence_snippets": [
+      {
+        "evidence_id": "ev_66e8c87e5e",
+        "source_id": "allen-p/sent_items/3.",
+        "source_type": "email",
+        "excerpt": "completed in a slightly scaled back form.",
+        "char_start": 132,
+        "char_end": 173,
+        "timestamp": "2001-11-26T13:35:58Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_b68e709797",
+        "source_id": "allen-p/sent_items/290.",
+        "source_type": "email",
+        "excerpt": "closed? I would like to see if we'll have any easement problems",
+        "char_start": 0,
+        "char_end": 63,
+        "timestamp": "2001-10-24T10:49:39Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_f2f4693086",
+        "source_id": "allen-p/sent_items/273.",
+        "source_type": "email",
+        "excerpt": "risk being short and needing a loan increase for any soft cost overages.",
+        "char_start": 2283,
+        "char_end": 2355,
+        "timestamp": "2001-10-10T05:38:22Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_9b779d847c",
+        "source_id": "allen-p/deleted_items/134.",
+        "source_type": "email",
+        "excerpt": "reversing the aging process.",
+        "char_start": 304,
+        "char_end": 332,
+        "timestamp": "2001-10-22T20:58:34Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_7df9bc7c01",
+        "source_id": "arnold-j/all_documents/62.",
+        "source_type": "email",
+        "excerpt": "confirmed back with Shirley Vauter that 1:30 PM -3:00 PM on Tuesday,",
+        "char_start": 20,
+        "char_end": 88,
+        "timestamp": "2000-12-08T05:47:00Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_2891232009",
+        "source_id": "arnold-j/continental_airlines/7.",
+        "source_type": "email",
+        "excerpt": "confirmed back with Shirley Vauter that 1:30 PM -3:00 PM on Tuesday,",
+        "char_start": 20,
+        "char_end": 88,
+        "timestamp": "2000-12-08T05:47:00Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_f974c9b2ce",
+        "source_id": "arnold-j/_sent_mail/500.",
+        "source_type": "email",
+        "excerpt": "no need to own any equity",
+        "char_start": 723,
+        "char_end": 748,
+        "timestamp": "2001-04-15T08:20:00Z",
+        "confidence": 0.6,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_73901cc0d4",
+        "source_id": "arnold-j/_sent_mail/501.",
+        "source_type": "email",
+        "excerpt": "no need to own any equity",
+        "char_start": 722,
+        "char_end": 747,
+        "timestamp": "2001-04-15T08:20:00Z",
+        "confidence": 0.6,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_07738df2de",
+        "source_id": "arnold-j/all_documents/737.",
+        "source_type": "email",
+        "excerpt": "no need to own any equity",
+        "char_start": 723,
+        "char_end": 748,
+        "timestamp": "2001-04-15T08:20:00Z",
+        "confidence": 0.6,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_dff98a2b22",
+        "source_id": "allen-p/_sent_mail/437.",
+        "source_type": "email",
+        "excerpt": "no longer an issue. I",
+        "char_start": 0,
+        "char_end": 21,
+        "timestamp": "2001-03-19T03:48:00Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      }
+    ],
+    "conflicts": [],
+    "answer_hint": "[DISPUTED] 'Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>' \u2192 status \u2192 'completed in a slightly scaled back form.'",
+    "total_evidence": 10,
+    "total_claims": 8
+  },
+  {
+    "question": "What assignments were given to Andy Fastow?",
+    "matched_entities": [],
+    "ranked_claims": [
+      {
+        "claim_id": "clm_fa5004f760",
+        "claim_type": "MEETING",
+        "subject": "unk",
+        "predicate": "meeting_occurred",
+        "object": "ATTENDEES: Andy Zipper",
+        "validity": "DISPUTED",
+        "valid_from": "2000-12-07T02:10:00Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 1,
+        "superseded_by": null
+      }
+    ],
+    "evidence_snippets": [
+      {
+        "evidence_id": "ev_f7620a4281",
+        "source_id": "arnold-j/all_documents/177.",
+        "source_type": "email",
+        "excerpt": "ATTENDEES: Andy Zipper",
+        "char_start": 198,
+        "char_end": 220,
+        "timestamp": "2000-12-07T02:10:00Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      }
+    ],
+    "conflicts": [],
+    "answer_hint": "[DISPUTED] 'unk' \u2192 meeting_occurred \u2192 'ATTENDEES: Andy Zipper'",
+    "total_evidence": 1,
+    "total_claims": 1
+  },
+  {
+    "question": "What meetings occurred regarding EnronOnline?",
+    "matched_entities": [
+      {
+        "entity_id": "ent_person_p0568",
+        "canonical_name": "Oxley, David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=DOXLEY>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "Oxley, David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=DOXLEY>",
+          "david.oxley@enron.com"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0419",
+        "canonical_name": "Fraser, Jennifer </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JFRASER>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "jennifer.fraser@enron.com",
+          "Fraser, Jennifer </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JFRASER>",
+          "Jennifer Fraser"
+        ]
+      },
+      {
+        "entity_id": "ent_project_proj017",
+        "canonical_name": "Enron Response",
+        "entity_type": "PROJECT",
+        "aliases": [
+          "Enron Response"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0034",
+        "canonical_name": "Hayden, Frank </O=ENRON/OU=NA/CN=RECIPIENTS/CN=FHAYDEN>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "Hayden, Frank </O=ENRON/OU=NA/CN=RECIPIENTS/CN=FHAYDEN>",
+          "Frank Hayden",
+          "frank.hayden@enron.com"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0255",
+        "canonical_name": "perfmgmt@enron.com",
+        "entity_type": "PERSON",
+        "aliases": [
+          "perfmgmt@enron.com",
+          "\"Performance Evaluation Process (PEP)\" <perfmgmt@enron.com>"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0037",
+        "canonical_name": "Grigsby, Mike </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MGRIGSB>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "Grigsby, Mike </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MGRIGSB>",
+          "mike.grigsby@enron.com"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0704",
+        "canonical_name": "Engler, Adrianne </O=ENRON/OU=NA/CN=RECIPIENTS/CN=AENGLER>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "Engler, Adrianne </O=ENRON/OU=NA/CN=RECIPIENTS/CN=AENGLER>",
+          "adrianne.engler@enron.com"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0339",
+        "canonical_name": "Miller, Don (Asset Mktg) </O=ENRON/OU=NA/CN=RECIPIENTS/CN=DMILLE2>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "The Princeton Review@ENRON",
+          "Ken Lay@ENRON",
+          "ClickAtHome and Community Relations-@ENRON"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0337",
+        "canonical_name": "Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>",
+          "k..allen@enron.com"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0197",
+        "canonical_name": "critical.notice@enron.com",
+        "entity_type": "PERSON",
+        "aliases": [
+          "critical.notice@enron.com",
+          "critical.notice@Enron.com"
+        ]
+      },
+      {
+        "entity_id": "ent_project_proj023",
+        "canonical_name": "Enron Mentions",
+        "entity_type": "PROJECT",
+        "aliases": [
+          "Enron Mentions"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0705",
+        "canonical_name": "enron_update@concureworkplace.com",
+        "entity_type": "PERSON",
+        "aliases": [
+          "enron_update@concureworkplace.com@ENRON",
+          "enron_update@concureworkplace.com"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p1399",
+        "canonical_name": "Enron Announcements",
+        "entity_type": "PERSON",
+        "aliases": [
+          "enron.announcements@enron.com",
+          "Enron Announcements"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0686",
+        "canonical_name": "O'Rourke, Ryan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=ROROURKE>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "ryan.o'rourke@enron.com",
+          "O'Rourke, Ryan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=ROROURKE>"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0616",
+        "canonical_name": "Bruce, James </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JBRUCE2>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "Bruce, James </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JBRUCE2>",
+          "james.bruce@enron.com"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0119",
+        "canonical_name": "Buckley, Karen </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KBUCKLEY>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "Buckley, Karen </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KBUCKLEY>",
+          "karen.buckley@enron.com"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p1012",
+        "canonical_name": "Keiser, Kam </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KKEISER>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "kam.keiser@enron.com",
+          "Keiser, Kam </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KKEISER>"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0347",
+        "canonical_name": "Cantrell, Rebecca W. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=BCANTRE>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "Cantrell, Rebecca W. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=BCANTRE>",
+          "w..cantrell@enron.com"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0181",
+        "canonical_name": "arsystem@mailman.enron.com",
+        "entity_type": "PERSON",
+        "aliases": [
+          "arsystem@mailman.enron.com",
+          "ARSystem@mailman.enron.com",
+          "ARSystem <ARSystem@mailman.enron.com>@ENRON"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0375",
+        "canonical_name": "Puthigai, Savita </O=ENRON/OU=NA/CN=RECIPIENTS/CN=SPUTHIGA>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "savita.puthigai@enron.com",
+          "Puthigai, Savita </O=ENRON/OU=NA/CN=RECIPIENTS/CN=SPUTHIGA>"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0379",
+        "canonical_name": "Espinoza, Veronica </O=ENRON/OU=NA/CN=RECIPIENTS/CN=VESPINO>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "Espinoza, Veronica </O=ENRON/OU=NA/CN=RECIPIENTS/CN=VESPINO>",
+          "veronica.espinoza@enron.com"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0614",
+        "canonical_name": "Sheppard, Kathryn </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KSHEPPAR>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "Sheppard, Kathryn </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KSHEPPAR>",
+          "kathryn.sheppard@enron.com"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0559",
+        "canonical_name": "Grabstald, Kathie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KGRABST>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "kathie.grabstald@enron.com",
+          "Grabstald, Kathie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KGRABST>"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p1171",
+        "canonical_name": "Allen, Margaret </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MALLEN3>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "Allen, Margaret </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MALLEN3>",
+          "Margaret Allen",
+          "margaret.allen@enron.com"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0721",
+        "canonical_name": "Ratcliff, Renee </O=ENRON/OU=NA/CN=RECIPIENTS/CN=RRATCLI>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "Ratcliff, Renee </O=ENRON/OU=NA/CN=RECIPIENTS/CN=RRATCLI>",
+          "renee.ratcliff@enron.com"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0698",
+        "canonical_name": "McDaniel, Kirk </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=151B1F73-1F0D9C60-8625697B-63E5AD>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "McDaniel, Kirk </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=151B1F73-1F0D9C60-8625697B-63E5AD>",
+          "kirk.mcdaniel@enron.com"
+        ]
+      },
+      {
+        "entity_id": "ent_person_p0724",
+        "canonical_name": "Akers, Michelle </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MAKERS>",
+        "entity_type": "PERSON",
+        "aliases": [
+          "michelle.akers@enron.com",
+          "Akers, Michelle </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MAKERS>"
+        ]
+      }
+    ],
+    "ranked_claims": [
+      {
+        "claim_id": "clm_07bb0c10c4",
+        "claim_type": "RISK_FLAG",
+        "subject": "Miller, Don (Asset Mktg) </O=ENRON/OU=NA/CN=RECIPIENTS/CN=DMILLE2>",
+        "predicate": "flagged_risk",
+        "object": "issue you will find out information regarding:",
+        "validity": "DISPUTED",
+        "valid_from": "2001-10-28T20:23:22Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 2,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_3434125dcd",
+        "claim_type": "RISK_FLAG",
+        "subject": "mery.l.brown@accenture.com",
+        "predicate": "flagged_risk",
+        "object": "problem and to ask you some specific questions regarding",
+        "validity": "CURRENT",
+        "valid_from": "2001-11-26T15:33:45Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 2,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_3f8b671d66",
+        "claim_type": "MEETING",
+        "subject": "unk",
+        "predicate": "meeting_occurred",
+        "object": "Attendees: Pam Butler",
+        "validity": "DISPUTED",
+        "valid_from": "2001-11-07T05:35:15Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_f49c016118",
+        "claim_type": "DECISION",
+        "subject": "John Arnold",
+        "predicate": "decided: decision regarding your return?",
+        "object": "decision regarding your return?",
+        "validity": "HISTORICAL",
+        "valid_from": "2001-03-27T23:36:00Z",
+        "valid_until": "2001-10-22T20:58:34Z",
+        "confidence": 0.75,
+        "evidence_count": 2,
+        "superseded_by": "clm_e48decd07f"
+      },
+      {
+        "claim_id": "clm_fa5004f760",
+        "claim_type": "MEETING",
+        "subject": "unk",
+        "predicate": "meeting_occurred",
+        "object": "ATTENDEES: Andy Zipper",
+        "validity": "DISPUTED",
+        "valid_from": "2000-12-07T02:10:00Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_92dd475b44",
+        "claim_type": "MEETING",
+        "subject": "Jeff Youngflesh",
+        "predicate": "meeting_occurred",
+        "object": "Attendee: Anthony Gilmore",
+        "validity": "DISPUTED",
+        "valid_from": "2000-12-05T09:15:00Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 2,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_1b87dea0a6",
+        "claim_type": "MEETING",
+        "subject": "Jeff Youngflesh",
+        "predicate": "meeting_occurred",
+        "object": "Attendee: Jeff Youngflesh",
+        "validity": "DISPUTED",
+        "valid_from": "2000-12-05T09:15:00Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 2,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_365deea9a2",
+        "claim_type": "RISK_FLAG",
+        "subject": "arsystem@mailman.enron.com",
+        "predicate": "flagged_risk",
+        "object": "Risk Acceptance Forms Local Admin Rights - Permanent",
+        "validity": "CURRENT",
+        "valid_from": "2001-12-27T17:16:46Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 28,
+        "superseded_by": null
+      }
+    ],
+    "evidence_snippets": [
+      {
+        "evidence_id": "ev_3d62df3cd9",
+        "source_id": "allen-p/deleted_items/244.",
+        "source_type": "email",
+        "excerpt": "issue you will find out information regarding:",
+        "char_start": 127,
+        "char_end": 173,
+        "timestamp": "2001-10-28T20:23:22Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_3a7bb1b714",
+        "source_id": "allen-p/deleted_items/370.",
+        "source_type": "email",
+        "excerpt": "issue you will find out information regarding:",
+        "char_start": 127,
+        "char_end": 173,
+        "timestamp": "2001-11-19T05:12:09Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_6acfdf48df",
+        "source_id": "allen-p/deleted_items/455.",
+        "source_type": "email",
+        "excerpt": "problem and to ask you some specific questions regarding",
+        "char_start": 172,
+        "char_end": 228,
+        "timestamp": "2001-11-26T15:33:45Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_6966b28f73",
+        "source_id": "allen-p/inbox/85.",
+        "source_type": "email",
+        "excerpt": "problem and to ask you some specific questions regarding",
+        "char_start": 172,
+        "char_end": 228,
+        "timestamp": "2001-11-26T15:33:45Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_de720cea82",
+        "source_id": "allen-p/sent_items/380.",
+        "source_type": "email",
+        "excerpt": "Attendees: Pam Butler",
+        "char_start": 0,
+        "char_end": 21,
+        "timestamp": "2001-11-07T05:35:15Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_ab2de3fc60",
+        "source_id": "arnold-j/_sent_mail/561.",
+        "source_type": "email",
+        "excerpt": "decision regarding your return?",
+        "char_start": 205,
+        "char_end": 236,
+        "timestamp": "2001-03-27T23:36:00Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_4549e90d23",
+        "source_id": "arnold-j/all_documents/799.",
+        "source_type": "email",
+        "excerpt": "decision regarding your return?",
+        "char_start": 205,
+        "char_end": 236,
+        "timestamp": "2001-03-27T23:36:00Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_f7620a4281",
+        "source_id": "arnold-j/all_documents/177.",
+        "source_type": "email",
+        "excerpt": "ATTENDEES: Andy Zipper",
+        "char_start": 198,
+        "char_end": 220,
+        "timestamp": "2000-12-07T02:10:00Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_b3923bf3af",
+        "source_id": "arnold-j/all_documents/39.",
+        "source_type": "email",
+        "excerpt": "Attendee: Anthony Gilmore",
+        "char_start": 0,
+        "char_end": 25,
+        "timestamp": "2000-12-05T09:15:00Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_85b51591d2",
+        "source_id": "arnold-j/bristol_babcock/1.",
+        "source_type": "email",
+        "excerpt": "Attendee: Anthony Gilmore",
+        "char_start": 0,
+        "char_end": 25,
+        "timestamp": "2000-12-05T09:15:00Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      }
+    ],
+    "conflicts": [],
+    "answer_hint": "Based on the memory graph: 'mery.l.brown@accenture.com' \u2192 flagged_risk \u2192 'problem and to ask you some specific questions regarding' [confidence=0.85, validity=CURRENT]",
+    "total_evidence": 10,
+    "total_claims": 8
+  },
+  {
+    "question": "What risk flags were raised about SPE disclosures?",
+    "matched_entities": [],
+    "ranked_claims": [
+      {
+        "claim_id": "clm_505005585f",
+        "claim_type": "RISK_FLAG",
+        "subject": "Miller, Don (Asset Mktg) </O=ENRON/OU=NA/CN=RECIPIENTS/CN=DMILLE2>",
+        "predicate": "flagged_risk",
+        "object": "risk tolerance.",
+        "validity": "DISPUTED",
+        "valid_from": "2001-10-25T21:43:45Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_f426b93007",
+        "claim_type": "RISK_FLAG",
+        "subject": "Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>",
+        "predicate": "flagged_risk",
+        "object": "Risk Management",
+        "validity": "DISPUTED",
+        "valid_from": "2001-09-14T07:25:28Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_36fec884f7",
+        "claim_type": "RISK_FLAG",
+        "subject": "monica.l.brown@accenture.com",
+        "predicate": "flagged_risk",
+        "object": "Risk Management Simulation Meeting",
+        "validity": "CURRENT",
+        "valid_from": "2001-10-29T10:17:06Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 2,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_8efe192ffa",
+        "claim_type": "RISK_FLAG",
+        "subject": "Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>",
+        "predicate": "flagged_risk",
+        "object": "Risk Management Simulation.",
+        "validity": "DISPUTED",
+        "valid_from": "2001-09-10T06:56:07Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_d3ca9be4e6",
+        "claim_type": "RISK_FLAG",
+        "subject": "Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>",
+        "predicate": "flagged_risk",
+        "object": "risk management group.",
+        "validity": "DISPUTED",
+        "valid_from": "2001-09-14T12:41:59Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_7ba8cc8030",
+        "claim_type": "RISK_FLAG",
+        "subject": "unk",
+        "predicate": "flagged_risk",
+        "object": "risk over time. And, by keeping your fees,",
+        "validity": "CURRENT",
+        "valid_from": "2001-10-09T17:03:58Z",
+        "valid_until": null,
+        "confidence": 0.75,
+        "evidence_count": 1,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_365deea9a2",
+        "claim_type": "RISK_FLAG",
+        "subject": "arsystem@mailman.enron.com",
+        "predicate": "flagged_risk",
+        "object": "Risk Acceptance Forms Local Admin Rights - Permanent",
+        "validity": "CURRENT",
+        "valid_from": "2001-12-27T17:16:46Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 28,
+        "superseded_by": null
+      },
+      {
+        "claim_id": "clm_d7594d9930",
+        "claim_type": "RISK_FLAG",
+        "subject": "unk",
+        "predicate": "flagged_risk",
+        "object": "risk in the real world in a logical, methodical manner.",
+        "validity": "DISPUTED",
+        "valid_from": "2001-10-18T05:15:31Z",
+        "valid_until": null,
+        "confidence": 0.85,
+        "evidence_count": 1,
+        "superseded_by": null
+      }
+    ],
+    "evidence_snippets": [
+      {
+        "evidence_id": "ev_9987b171fd",
+        "source_id": "allen-p/deleted_items/214.",
+        "source_type": "email",
+        "excerpt": "risk tolerance.",
+        "char_start": 1128,
+        "char_end": 1143,
+        "timestamp": "2001-10-25T21:43:45Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_6d826af25b",
+        "source_id": "allen-p/sent_items/255.",
+        "source_type": "email",
+        "excerpt": "Risk Management",
+        "char_start": 468,
+        "char_end": 483,
+        "timestamp": "2001-09-14T07:25:28Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_f4469ad94a",
+        "source_id": "allen-p/deleted_items/265.",
+        "source_type": "email",
+        "excerpt": "Risk Management Simulation Meeting",
+        "char_start": 271,
+        "char_end": 305,
+        "timestamp": "2001-10-29T10:17:06Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_d53088a3e0",
+        "source_id": "allen-p/inbox/31.",
+        "source_type": "email",
+        "excerpt": "Risk Management Simulation Meeting",
+        "char_start": 452,
+        "char_end": 486,
+        "timestamp": "2001-10-29T09:16:09Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_52f867099e",
+        "source_id": "allen-p/sent_items/242.",
+        "source_type": "email",
+        "excerpt": "Risk Management Simulation.",
+        "char_start": 0,
+        "char_end": 27,
+        "timestamp": "2001-09-10T06:56:07Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_9f53d96570",
+        "source_id": "allen-p/sent_items/259.",
+        "source_type": "email",
+        "excerpt": "risk management group.",
+        "char_start": 27,
+        "char_end": 49,
+        "timestamp": "2001-09-14T12:41:59Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_9c337180e3",
+        "source_id": "arnold-j/deleted_items/133.",
+        "source_type": "email",
+        "excerpt": "risk over time. And, by keeping your fees,",
+        "char_start": 248,
+        "char_end": 290,
+        "timestamp": "2001-10-09T17:03:58Z",
+        "confidence": 0.75,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_be095462c6",
+        "source_id": "allen-p/deleted_items/10.",
+        "source_type": "email",
+        "excerpt": "Risk Acceptance Forms Local Admin Rights - Permanent",
+        "char_start": 347,
+        "char_end": 399,
+        "timestamp": "2001-12-27T17:16:46Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_5bfa9be01e",
+        "source_id": "allen-p/deleted_items/116.",
+        "source_type": "email",
+        "excerpt": "Risk Acceptance Forms Local Admin Rights - Permanent",
+        "char_start": 346,
+        "char_end": 398,
+        "timestamp": "2001-10-19T17:28:19Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      },
+      {
+        "evidence_id": "ev_9b2ce93b6c",
+        "source_id": "allen-p/deleted_items/139.",
+        "source_type": "email",
+        "excerpt": "Risk Acceptance Forms Local Admin Rights - Permanent",
+        "char_start": 346,
+        "char_end": 398,
+        "timestamp": "2001-10-22T17:25:00Z",
+        "confidence": 0.85,
+        "extractor_ver": "v1.0.0-deterministic"
+      }
+    ],
+    "conflicts": [],
+    "answer_hint": "Based on the memory graph: 'monica.l.brown@accenture.com' \u2192 flagged_risk \u2192 'Risk Management Simulation Meeting' [confidence=0.75, validity=CURRENT]",
+    "total_evidence": 10,
+    "total_claims": 8
+  }
+]
